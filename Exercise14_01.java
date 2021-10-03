@@ -18,7 +18,7 @@ public class Exercise14_01 {
         
         //Input of the first number
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter number1");
+        System.out.println("Please enter first number");
         num1 = input.next();
         int i = Integer.parseInt(num1);
 
@@ -49,14 +49,7 @@ public class Exercise14_01 {
             {
                 System.out.println("your answer is " + (i - j));
             }
-            // if (operation.equals("/"))
-            // {
-            //     System.out.println("your answer is " + (i / j));
-            // }
-            // if (operation .equals( "*"))
-            // {
-            //     System.out.println("your answer is " + (i * j));
-            // }
+            
         }
     }
 }
